@@ -1,0 +1,18 @@
+id cliente: 1073305166056-3or89jd0ktme5nsl6vk2jf90ncjpc3dm.apps.googleusercontent.com
+secreto: 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
+
+1.
+Crear un segundo workflow que haga lo siguiente: dado un google sheets con los 
+campos nombre, correo, tipo y enviado, se pide que cada minuto el agente IA n8n
+acceda a la hoja de cálculo y a todas aquellas row o filas cuyo valor en el campo
+enviado sea "no" le envie un correo electrónico de bienvenida. Una vez enviado
+modificará autmáticamente la hoja de cálculo cambiando el valor de la columna
+enviado de no a sí. 
+Si una fila tiene el valor enviado "sí" no se le vuelve a enviar el correo de 
+bienvenida.
+
+2.
+Utilizando jarvis modelo gpt-oss:20b, mejorar el flujo de trabajo del ejercicio
+anterior con un mensaje personalizado de menos de 30 lineas dando la bienvenida
+a los usuarios en su nuevo puesto de trabajo.
+Crear un prompt acorde a las necesidades del proyecto.
