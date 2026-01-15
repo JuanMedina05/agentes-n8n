@@ -1,0 +1,7 @@
+Desarrollar un sistema automatizado sin intervención manual sin necesidad de base de datos
+externas, que gener ejercicios de js de alta calidad pedagógica.
+Para ello el sisteme leera tu temario de pdf que tengas en github, utilizará inteligencia 
+artificial para generar ejercicios relacionados con los pdf y publicará automáticamente
+todo el material en un repositorio de github.
+Además mandará un correo y discord informando a los alumnos.
+Dicho flujo se realizará todos los lunes a las 9am.
